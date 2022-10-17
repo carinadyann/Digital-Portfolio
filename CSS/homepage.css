@@ -1,0 +1,32 @@
+﻿/*
+    @file: homepage.css
+    @last update: 5/30/22
+    @author: Carina Adrianzen
+*/
+
+/*images*/
+img {
+    width: 100%;
+    height: auto;
+}
+
+.contentGrid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 1em;
+    margin-left: 50px;
+    margin-right: 50px;
+}
+
+.imgGrid {
+    width: auto;
+    height: auto;
+}
+
+.textGrid {
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 30px;
+    color: steelblue;
+    line-height: 2;
+}

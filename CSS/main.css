@@ -1,0 +1,76 @@
+﻿/*
+    @file: main.css
+    @last update: 5/30/22
+    @author: Carina Adrianzen
+*/
+
+body {
+    background-color: skyblue;
+}
+
+footer {
+    width: auto;
+    height: auto;
+    padding: 5px;
+}
+
+/*text*/
+h1 {
+    text-align: center;
+    font-size: 50px;
+    font-family: 'Times New Roman', Times, serif;
+    color: skyblue;
+}
+
+h2 {
+    text-align: center;
+    font-size: 40px;
+    font-family: 'Times New Roman', Times, serif;
+    color: steelblue;
+    margin-left: 50px;
+    margin-right: 50px;
+    line-height: 2;
+}
+
+p {
+    text-align: center;
+    font-size: 20px;
+    font-family: 'Times New Roman', Times, serif;
+    color: steelblue;
+}
+
+/*navigation*/
+li {
+    float: right;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: steelblue;
+}
+
+li a {
+    height: auto;
+    display: block;
+    color: white;
+    text-align: center;
+    font-size: 30px;
+    padding: 14px 16px;
+    margin: 0%;
+    text-decoration: none;
+}
+
+li a:hover {
+    background-color: lightsteelblue;
+}
+
+/*organizers*/
+.container {
+    background-color: aliceblue;
+    width: auto;
+    height: auto;
+    padding: 5px;
+}

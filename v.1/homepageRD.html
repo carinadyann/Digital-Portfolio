@@ -1,0 +1,234 @@
+<!DOCTYPE html>
+
+<a name="top"></a>
+
+<html>
+<head>
+
+<title>Carina Adrianzen</title>
+</head>
+<body>
+
+<style>
+header {
+	background-color: #e7f3fe;
+	border: 4px solid black;
+	padding: 30px;
+	text-align: center;
+ 	font-size: 35px;
+	font-family: Garamond;
+	color: black;
+}
+
+body {
+	background-color: #cee6fd;
+}
+
+.title {
+	background-color: #0869c4;
+	border: 4px solid #05427a;
+	padding: 10px;
+	margin-top: 20px;
+	margin-bottom: 20px;
+	text-align: center;
+	font-size: 20px;
+	font-family: Garamond;
+	color: white;
+}
+
+/*dividers*/
+
+hr.dashed {
+	margin-top: 50px;
+	margin-bottom: 50px;
+  	border-top: 50px dashed #e7f3fe;
+}
+
+hr.solid {
+	margin-left: 10px;
+	margin-right: 10px;
+  	border-top: 5px solid #e7f3fe;
+}
+
+
+h3 {
+	background-color: #0a83f5;
+	line-height: 2;
+	padding: 10px;
+	margin: 10px;
+	text-align: center;
+	font-size: 30px;
+	font-family: Times New Roman;
+	color: white;
+}
+
+/*content*/
+
+h4 {
+	background-color: #0a83f5;
+	width: auto;
+	height: 100%;
+	padding: 10px;
+	text-align: left;
+	font-size: 90%;
+	font-family: Times New Roman;
+	color: white;
+}
+
+picture {
+	border: 10px solid white;
+	float: left;
+}
+
+info {
+	background-color: #0a83f5;
+	font-size: 30px;
+	float: left;
+	width: 100%;
+	height: 100%;
+}
+
+/*sidebar*/
+
+.sidebar {
+	  height: 100%;
+  	width: 0;
+  	position: fixed;
+  	z-index: 1;
+  	top: 0;
+  	left: 0;
+  	background-color: #55b1f7;
+  	overflow-x: hidden;
+  	transition: 0.5s;
+  	padding-top: 60px;
+}
+
+.sidebar a {
+	padding: 8px 8px 8px 32px;
+  	text-decoration: none;
+  	font-size: 25px;
+  	color: #cee9fd;
+  	display: block;
+  	transition: 0.3s;
+}
+
+.sidebar a:hover {
+  	color: #e7f3fe;
+}
+
+.sidebar .closebtn {
+  	position: absolute;
+  	top: 0;
+  	right: 25px;
+  	font-size: 36px;
+	font-family: Garamond;
+  	margin-left: 50px;
+}
+
+.openbtn {
+  	font-size: 20px;
+	  cursor: pointer;
+  	background-color: #05427a;
+  	color: white;
+  	padding: 10px 15px;
+  	border: none;
+}
+
+.openbtn:hover {
+	  background-color: #0869c4;
+}
+
+#main {
+	  transition: margin-left .5s;
+	  padding: 16px;
+}
+
+</style>
+
+<header>
+<h1>Carina Adrianzen</h1>
+</header>
+
+<div id="mySidebar" class="sidebar">
+  <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">×</a>
+  <a href="file:///C:/Users/16199/OneDrive%20-%20Cal%20State%20Fullerton/Desktop/Homepage/Copy_of_Resume.pdf">Resume</a>
+  <a href="file:///C:/Users/16199/OneDrive%20-%20Cal%20State%20Fullerton/Desktop/Homepage/contact.html">Contact</a>
+</div>
+
+<div id="main">
+  <button class="openbtn" onclick="openNav()">☰</button>
+</div>
+
+<script>
+function openNav() {
+  document.getElementById("mySidebar").style.width = "250px";
+  document.getElementById("main").style.marginLeft = "250px";
+}
+
+function closeNav() {
+  document.getElementById("mySidebar").style.width = "0";
+  document.getElementById("main").style.marginLeft= "0";
+}
+</script>
+
+<div class="title">
+<h1>Welcome!</h1>
+</div>
+
+<h3>
+Welcome to my self-made website! My name is Carina Adrianzen and I am excited to encounter new challenges in the world of computer science!
+</h3>
+
+<hr class="dashed">
+
+<div class="title">
+<h1>About Me</h1>
+</div>
+
+<table style="width: 100%" "height: 100%">
+
+<tr>
+<th>
+<picture>
+<img src="meFullerton.jpg" alt="blank" width = 100% height = 100%>
+</picture>
+</th>
+
+<td>
+<info>
+<h3>Here are a few facts to get to know me better!</h3>
+<h4>Major: Computer Science</h4>
+<h4>Education: California State University Fullerton</h4>
+<h4>Date of Birth: December 31st, 2001</h4>
+<h4>Expected Graduation: May 2024</h4>
+<h4>Interest: Dance, Programming, Art(painting, drawing, crafting)</h4>
+<h4>Programming Languages: C++, HTML, Python</h4>
+<h4>Software: Github</h4>
+</info>
+</td>
+</tr>
+
+</table>
+
+<hr class="dashed">
+
+<div class="title">
+<h1>Projects</h1>
+</div>
+
+<info>
+<h3>Personal Website: July 2021</h3>
+<h4 style="line-height: 2">Description: During this summer project I was able to reteach myself a program language I was breifly introduced to in highschool. This enabled me to create this digital portfolio.</h4>
+<h4>Languages Used: HTML</h4>
+
+<hr class="solid">
+
+<h3>Space Invaders Inspired Game: April 2021 - May 2021</h3>
+<h4 style="line-height: 2">Description: From this semester project I was able to learn how to develop my version of the well known Space Invaders game. I learned how to work with graphics and animations in C++.</h4>
+<h4>Languages Used: C++</h4>
+</info>
+
+<a href="#top" style="font-family: Garamond">Back to top of page</a>
+
+</body>
+</html>
