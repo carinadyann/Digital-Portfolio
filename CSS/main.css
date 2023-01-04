@@ -30,6 +30,7 @@ h2 {
     margin-left: 50px;
     margin-right: 50px;
     line-height: 2;
+    padding: 10px;
 }
 
 p {
@@ -37,6 +38,16 @@ p {
     font-size: 20px;
     font-family: 'Times New Roman', Times, serif;
     color: steelblue;
+}
+
+.textbox {
+    border-radius: 25px;
+    background: white;
+    padding: 10px;
+    height: auto;
+    width: fit-content;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 /*navigation*/
