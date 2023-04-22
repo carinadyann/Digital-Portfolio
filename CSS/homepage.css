@@ -1,26 +1,25 @@
 ﻿/*
     @file: homepage.css
-    @last update: 5/30/22
+    @last update: 4/21/23
     @author: Carina Adrianzen
 */
 
 /*images*/
-img {
-    width: 100%;
+#profile {
+    width: 50%;
     height: auto;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 25px;
 }
 
 .contentGrid {
     display: grid;
-    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
     grid-gap: 1em;
     margin-left: 50px;
     margin-right: 50px;
-}
-
-.imgGrid {
-    width: auto;
-    height: auto;
 }
 
 .textGrid {

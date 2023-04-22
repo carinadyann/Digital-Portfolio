@@ -1,31 +1,31 @@
 ﻿/*
     @file: homepage.html
-    @last update: 1/2/23
+    @last update: 4/21/23
     @author: Carina Adrianzen
 */
 
 body {
+    margin: 0;
     background-color: skyblue;
+    font-family: Georgia;
 }
 
 footer {
     width: auto;
     height: auto;
-    padding: 5px;
 }
 
 /*text*/
 h1 {
     text-align: center;
     font-size: 50px;
-    font-family: 'Times New Roman', Times, serif;
-    color: skyblue;
+    color: aliceblue;
+    text-decoration: underline;
 }
 
 h2 {
     text-align: center;
     font-size: 40px;
-    font-family: 'Times New Roman', Times, serif;
     color: steelblue;
     margin-left: 50px;
     margin-right: 50px;
@@ -36,16 +36,17 @@ h2 {
 p {
     text-align: center;
     font-size: 20px;
-    font-family: 'Times New Roman', Times, serif;
     color: steelblue;
 }
 
 .textbox {
     border-radius: 25px;
-    background: white;
+    background-color: aliceblue;
     padding: 10px;
     height: auto;
     width: fit-content;
+    text-align: center;
+    display: block;
     margin-left: auto;
     margin-right: auto;
 }
@@ -80,8 +81,7 @@ li a:hover {
 
 /*organizers*/
 .container {
-    background-color: aliceblue;
     width: auto;
     height: auto;
-    padding: 5px;
+    padding: 20px;
 }
