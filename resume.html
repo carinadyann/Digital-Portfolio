@@ -1,48 +1,56 @@
-<!--
-    @file: homepage.html
-    @last update: 1/2/23
-    @author: Carina Adrianzen
--->
-
-<!DOCTYPE html>
+﻿<!DOCTYPE html>
 <html>
 <head>
-    <title>Carina Adrianzen | Resume</title>
+    <title>Carina Adrianzen | Projects</title>
 
-    <link rel="stylesheet" type="text/css" href="CSS/main.css"> <!--import css pages-->
-    <link rel="stylesheet" type="text/css" href="CSS/homepage.css">
-
+    <!--import css pages-->
+    <link rel="stylesheet" type="text/css" href="CSS/main.css">
 </head>
 <body>
 
-    <ul>
-        <li><a class="order" href="https://selling-nfc.company.site/">Order</a></li>
-        <li style="margin: 10px;"><a href="projects.html">Projects</a></li>
-        <li style="margin: 10px;"><a href="resume.html">Resume</a></li>
-        <li style="margin: 10px;"><a href="index.html">Home</a></li>
-    </ul>
+    <h1 id="header">Carina &hearts; Adrianzen</h1>
+    <br>
 
-    <div class="container">
-        <h1>Resume</h1>
-        <div class="textbox">
-            <h2>My downloadable resume can be found below!</h2>
-        </div>
+    <center>
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="resume.html">Resume</a></li>
+            <li><a href="projects.html">Projects</a></li>
+            <li><a class="order" href="https://selling-nfc.company.site/">Order</a></li>
+        </ul>
+    </center>
 
-        <p style="text-align:center"><embed src="Resume2023.pdf" width="80%" height="1000px"></p>
+    <div class="content" style="padding-bottom: 20px">
+        <h1 id="page-title" style="color: black">Resume</h1>
+        <h1 id="intro">My downloadable resume can be found below!</h1>
 
-        <footer>
-            <h1>Contact</h1>
-
-            <div class="textbox">
-                <p>Email: cadrianzen31@cox.net</p>
-                <p>Phone Number: (619) 942-9103</p>
-                <p>LinkedIn: <a href="https://www.linkedin.com/in/carina-adrianzen-026935206/">Carina Adrianzen</a></p>
-                <p>Github: <a href="https://github.com/carinadyann">carinadyann</a></p>
-            </div>
-            <br>
-            <p>Copyright &copy 2023 Carina Adrianzen. <br>All Rights Reserved.</p>
-        </footer>
+        <p style="text-align:center"><embed src="Resume2023.pdf" width="800" height="1050"></p>
     </div>
 
 </body>
 </html>
+
+<br>
+<footer>
+    <div class="footer">
+        <h1 id="page-title">Contact</h1>
+
+        <center>
+            <table style="width: 80%">
+                <tr>
+                    <td style="width: 65%"><p style="font-size: 30px">Email: <span style="font-size: 30px" id="emailId" onclick="copyFunction()">cadrianzen31@cox.net</span></p></td>
+                    <td style="width: 65%; font-size: 30px"><p>Phone Number: <span><a href="tel:619-942-9103">(619) 942-9103</a></span></p></td>
+                </tr>
+                <tr>
+                    <td style="width: 15%"><p style="font-size: 30px">LinkedIn: <a href="https://www.linkedin.com/in/carina-adrianzen-026935206/">Carina Adrianzen</a></p></td>
+                    <td style="width: 15%"><p style="font-size: 30px">Github: <a href="https://github.com/carinadyann">carinadyann</a></p></td>
+                </tr>
+                <tr>
+                    <td colspan="2"><center><p>Copyright &copy 2023 Carina Adrianzen. <br>All Rights Reserved.</p></center></td>
+                </tr>
+            </table>
+        </center>
+
+    </div>
+    <br>
+</footer>
