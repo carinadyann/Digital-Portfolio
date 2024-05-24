@@ -16,7 +16,7 @@ body {
 
 #page-title {
     font-size: 40px;
-    color: white;
+    color: black;
     text-decoration: underline;
 }
 
@@ -28,7 +28,7 @@ body {
 /* navigation */
 ul {
     font-size: 25px;
-    background-color: #FF8080;
+    background-color: mistyrose;
     padding: 10px;
     margin: 0;
     font-family: 'Urbanist';
@@ -41,7 +41,7 @@ li {
 }
 
 li a {
-    color: white;
+    color: black;
     text-decoration: none;
 }
 
@@ -51,21 +51,21 @@ li a:hover {
 
 a {
     padding: 8px;
-    background-color: #FF8080;
+    background-color: mistyrose;
 }
 
 
 /* containers */
 .content {
-    background-color: #FFB3B3;
+    background-color: mistyrose;
     margin: 20px;
     border-radius: 25px;
     box-shadow: 0 2px 4px 0 rgba(0,0,0,.2);
 }
 
 .contact {
-    color: white;
-    background-color: #FF8080;
+    color: black;
+    background-color: mistyrose;
     padding: 20px;
     font-family: 'Urbanist';
     font-size: 20px;
@@ -78,8 +78,8 @@ a {
     left: 0;
     bottom: 0;
     width: 100%;
-    background-color: #FF8080;
-    color: white;
+    background-color: mistyrose;
+    color: black;
 }
 
 /* email link */
